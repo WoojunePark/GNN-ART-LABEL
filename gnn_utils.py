@@ -59,6 +59,7 @@ def generate_networkx_graphs(graphcache,all_db,rand,num_examples,dataset):
         graphs.append(graph)
     return input_graphs, target_graphs, graphs, selids
 
+
 def create_placeholders(graphcache,rand,batch_size,all_db):
     """Creates placeholders for the model training and evaluation.
 
